@@ -7,116 +7,154 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gomezzzer Linktree</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      background-color: #fef6e4;
-    }
-    .name {
-      color: #001858;
-      display: flex;
-      justify-content: center;
 
+  <style>
+    html {
+      min-height: 100%;
+      height: fit-content;
     }
-    .banner-image {
-      width: 128px;
-      height: 128px;
-      object-fit: cover;
-      border-radius: 128px;
+
+    body {
+      min-height: 100%;
+      height: fit-content;
+      padding: 20px;
+      box-sizing: border-box;
+      margin: 0;
+      font-family: 'Source Sans Pro', Sans-Serif;
+      background-color: #faeee7;
     }
-    .social-icons {
-      color: #172c66;
+
+    .items {
+      margin: auto;
+      padding: 30px;
+      max-width: 640px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
     }
+
     .banner {
       display: flex;
       justify-content: center;
     }
+
+    .name {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      color: #33272a;
+      font-family: 'Playfair Display', Serif;
+    }
+
     .social-icons {
       display: flex;
       justify-content: space-around;
     }
-    .link {
-      background-color: #f582ae;
-      display: flex;
-      align-items: center;
-      padding: 5px;
-    }
-    .link a {
-      color: #001858;
+
+    .social-icons a {
+      color: #c3f0ca;
       text-decoration: none;
-      text-align: center;
-      flex-grow: 1;
     }
-    .thumbnail { 
+
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      border-radius: 128px;
+      object-fit: cover;
+      box-shadow: 10px 5px 5px #ff8ba7;
+    }
+
+    .thumbnail {
       width: 48px;
       height: 48px;
       border-radius: 48px;
       object-fit: cover;
     }
-    .items {
+
+    .link {
+      padding: 5px;
+      border-radius: 500px;
       display: flex;
-      flex-direction: column;
-      gap: 30px;
-      max-width: 640px;
-      flex-grow: 1;
+      align-items: center;
+      background-color: #c3f0ca;
+      box-shadow: var(--shadow-elevation-low);
+      transition: 0.3s;
+      box-shadow: 10px 5px 5px #ff8ba7;
     }
-    
-    
+
+    .link:hover {
+      box-shadow: var(--shadow-elevation-medium);
+    }
+
+    .link a {
+      color: #ff8ba7;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+      
+    }
+
+    .link-text {
+      flex: 1;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      padding: 0 5px;
+    }
+
+
    
+
+    
+
+   
+
   </style>
 
 </head>
 
 <body>
 
-  <div class="items">
+ <div class="items">
 
-  <div class="banner">
-    <img src="/thumbnails/owl.jpg" alt="Jorge Gomez headshot" class="banner-image">
-  </div>
+    <div class="banner">
+      <img src="/thumbnails/ME.png" alt="Jorge Gomez headshot" class="banner-image">
+    </div>
 
-  <div class="name">
-    Jorge Gomez 
-  </div>
+    <div class="name">
+      Jorge Gomez 
+    </div>
 
-  <div class="social-icons">
-    <a href="https://github.com/Gomezzzer" target="blank">
-      <img src="/thumbnails/github-1.svg" target="blank">
-    </a>
-     <a href="linkedin-Jorge-Gomez-a6865313a" target="blank">
-      <img src="/thumbnails/linkedin-3.svg" target="blank">
-    </a>
-   <!-- <a href="https://gomezzzer.github.io/resume/" target="blank">
-      <img src="/thumbnails/resume-cv-icon.svg" target="blank">-->
-    </a>
-    
-    <a href="https://twitter.com/Gomezzzer" target="blank">
-      <img src="/thumbnails/twitter-1.svg" target="blank">
-    </a>
- </div>
-
-  <div class="link glassy">
+    <div class="social-icons">
+      <a href="https://github.com/Gomezzzer" target="blank">
+        <img src="/thumbnails/github-1.svg" target="blank">
+      </a>
+      <a href="linkedin-Jorge-Gomez-a6865313a" target="blank">
+        <img src="/thumbnails/linkedin-3.svg" target="blank">
+      </a>
+      
+      <a href="https://twitter.com/Gomezzzer" target="blank">
+        <img src="/thumbnails/twitter-1.svg" target="blank">
+      </a>
+    </div>
+  
+    <div class="link">
     <img class="thumbnail"
-      src="">
-      <a target="_blank" href="">Instagtram</a>
-  </div>
+      src="/thumbnails/icons8-instagram-48.png">
+      <a target="_blank" href="https://www.instagram.com/headless_deadless/">Instagram</a>
+    </div>
 
-  <div class="link glassy">
-    <img class="thumbnail"
-      src="">
+    <div class="link">
+      <img class="thumbnail"
+        src="/thumbnails/screenshot 1.png">
+      <a target="_blank" href="https://gomezzzer.github.io/">Gomezzzer</a>
+    </div>
 
-      <a target="_blank" href="">Gomezzzer</a>
-  </div>
-
-  <div class="link glassy">
-    <img class="thumbnail"
-      src="">
-
-      <a target="_blank" href="">Resume</a>
-  </div>
+    <div class="link">
+      <img class="thumbnail"
+        src="/thumbnails/chicago 5.jpg">
+      <a target="_blank" href="https://gomezzzer.github.io/resume/">Resume</a>
+    </div>
 
 </div>  
   
