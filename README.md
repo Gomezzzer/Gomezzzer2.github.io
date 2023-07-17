@@ -52,9 +52,6 @@ rails server
 
 We would like to thank the open-source community for their valuable contributions and support in making LinkHub a feature-rich and robust link-in-bio solution.
 
-## Contact
-
-If you have any questions or feedback regarding LinkHub, feel free to reach out to our team at linkhub@example.com. We'd be happy to assist you!
 
 Happy linking!
 
