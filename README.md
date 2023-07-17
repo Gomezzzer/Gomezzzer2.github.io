@@ -10,47 +10,7 @@ LinkHub is a Ruby on Rails web application that allows you to create a personali
 - **Analytics and Insights**: Gain valuable insights into your link engagement and audience behavior through LinkHub's built-in analytics, helping you make informed decisions to optimize your online strategy.
 - **Responsive Design**: LinkHub is built using HTML and CSS, ensuring a fully responsive experience across all devices and screen sizes.
 
-## Installation
 
-To set up LinkHub locally, follow these steps:
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/linkhub.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd linkhub
-```
-
-3. Install the required dependencies using bundler:
-
-```bash
-bundle install
-```
-
-4. Set up the database:
-
-```bash
-rails db:create
-rails db:migrate
-```
-
-5. Start the Rails server:
-
-```bash
-rails server
-```
-
-6. Open your web browser and visit `http://localhost:3000` to access LinkHub.
-
-
-## Acknowledgments
-
-We would like to thank the open-source community for their valuable contributions and support in making LinkHub a feature-rich and robust link-in-bio solution.
 
 
 Happy linking!
